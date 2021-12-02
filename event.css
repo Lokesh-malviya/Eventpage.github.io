@@ -42,6 +42,24 @@ span{
     font-weight:bolder;
     font-size: 36px;
 }
+.box{
+    display: table;
+    margin: auto;
+    background-color: #235094;
+    width: 288px;
+height: 70px;
+border-radius: 50px;
+    text-align-last: center;
+    color: #fff;
+}
+.timelines{
+    width: 10px;
+    height: 1000px;
+    margin-top: 40px;
+    background-color: #8B7575;
+    display: table;
+    margin: auto;
+}
 @media screen and (max-width: 600px) {
     .Event font{
         font-style:normal;
