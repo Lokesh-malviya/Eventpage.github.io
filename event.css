@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.Event{
+    width: 100%;
+    text-align-last: center;
+    margin-top: 5vw;
+    
+}
+font{
+    font-family: Montserrat;
+font-style:normal;
+font-weight:bolder;
+font-size: 68px;
+color: #1F1E1E;
+
+
+}
+.yellow{
+  
+    width: 528px;
+    display: table;
+    margin: auto;
+    height: 20px;
+background: #FFDE59;
+}
+h2{
+   
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #000000;
+
+}
+span{
+    font-weight:bolder;
+    font-size: 36px;
+}
+@media screen and (max-width: 600px) {
+    .Event font{
+        font-style:normal;
+        font-weight:bolder;
+        font-size: 36px;
+        
+    }
+    .yellow{
+        width: 200px;
+        height: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    span{
+       font-size : 18px;
+    }
+    
+}
